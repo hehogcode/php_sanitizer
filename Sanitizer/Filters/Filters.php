@@ -45,7 +45,7 @@ class IntegerFilter extends Filter
         );
     }
 
-    function type_cast($value)
+    protected function type_cast($value)
     {
         return (int)$value;
     }
@@ -63,7 +63,7 @@ class FloatFilter extends Filter
         );
     }
 
-    function type_cast($value)
+    protected function type_cast($value)
     {
         return (float)$value;
     }

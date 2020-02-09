@@ -1,12 +1,12 @@
 <?php
 
-
 namespace SanitizerTest;
 
 require "..\Sanitizer\Sanitizer.php";
 
 use PHPUnit\Framework\TestCase;
 use Sanitizer\Sanitizer;
+
 
 class SanitizerTest extends TestCase
 {
